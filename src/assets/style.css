@@ -1,0 +1,77 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family:Lora;
+}
+.CompletionProgressGreyBar {
+	background-color: #b0c4de;
+}
+.CompletionProgressGreenBar {
+	height:50px;
+	background-color: #00cc00;
+}
+.green {
+	background-color: #00ff00;
+}
+.yellow {
+	background-color: #ffff00;
+}
+.red {
+	background-color: #ff0000;
+}
+.label-large {
+	font-size:14px;
+}
+.default {
+	position: absolute;
+    top: 0;
+    left:15px;
+}
+.primary {
+	position: absolute;
+   	top:35px;
+    left: 15px;
+}
+.success {
+	position: absolute;
+    top: 70px;
+   	left:15px;
+}
+.danger {
+	position: absolute;
+   	top:105px;
+   	left:15px;
+}
+@media (max-width:768px) {
+	.label-large {
+		font-size:12px;
+	}
+	.default {
+	position: absolute;
+    top: 0;
+    left:0;
+	}
+	.primary {
+	position: absolute;
+   	top: 15px;
+    left:0;
+	}
+	.success {
+	position: absolute;
+    top: 30px;
+   	left:0;
+	}
+	.danger {
+	position: absolute;
+   	top:45px;
+   	left:0;
+	}
+}
+.taskDone {
+	text-decoration: line-through;
+	font-family: Raleway;
+	color: #ff0000;
+	font-size: 16px;
+}
